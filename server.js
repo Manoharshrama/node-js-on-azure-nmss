@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 // Enable CORS for specific origins (adjust as needed)
 app.use(cors({
-  origin: ['https://localhost:3000']
+  origin: ['https://node-js-on-azure-dice-roller-nmss-b7drgdhdd7c4e6hc.canadacentral-01.azurewebsites.net/']
 }));
 
 // RESTful API: Roll a die
