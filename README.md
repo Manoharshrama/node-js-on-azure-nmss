@@ -28,7 +28,6 @@ the number of workers to use.
 
 ---
 
-
 Requirement 1
 Create a website that:
 
@@ -44,4 +43,21 @@ Update your Dice Roller so that it:
 2. Asynchronously calls one of the remote RESTful APIs to “wake up” the Node.js server
 3. Calls remote RESTful APIs for all random numbers
 4. Demonstrates a CORS failure condition
+
+
+
+# Running the Project
+```bash
+npm install
+
+npm run start
+```
+
+
+# Accessing the Development Website (Requirement 1)
+http://localhost:3000
+
+# Accessing the Secure server (Requirement 2)
+http://localhost:3000/secure.html
+
 
