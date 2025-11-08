@@ -4,7 +4,9 @@
 
 ### Credits & references:
 
-Majority of the code is derived from Express JS documentation website located at : https://expressjs.com/en/api.html
+Majority of the code in server.js is derived from Express JS documentation website located at : https://expressjs.com/en/api.html
+once the index.html and secure.html were written I refactored them using ChatGPT to ensure Better UI/UX using Bootstrap Framework.
+
 
 ---
 page_type: DiceRoller
@@ -59,5 +61,6 @@ http://localhost:3000
 
 # Accessing the Secure server (Requirement 2)
 http://localhost:3000/secure.html
+
 
 
