@@ -20,7 +20,7 @@ app.get('/api/wakeup', (req, res) => {
   res.send('Server is awake!');
 });
 
-// Basic index.html for testing
+
 app.use(express.static(__dirname));
 
 app.listen(PORT, () => {
