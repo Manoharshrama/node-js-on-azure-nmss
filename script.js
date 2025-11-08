@@ -1,5 +1,4 @@
-//const API_BASE = 'https://your-dice-api.azurewebsites.net'; // Replace with actual backend URL
-const API_BASE = 'http://localhost:3000'; // Replace with actual backend URL
+const API_BASE = 'https://node-js-on-azure-dice-roller-nmss-b7drgdhdd7c4e6hc.canadacentral-01.azurewebsites.net/'; // Replace with actual backend URL
 
 async function wakeUp() {
   await fetch(`${API_BASE}/api/wakeup`);
